@@ -1,0 +1,238 @@
+html, body, div, h1, h2, h3, h4, h5, h6, ul, ol, dl, li, dt, dd, p, blockquote, pre, form, fieldset, table, th, td, map {
+    margin: 0;
+    padding: 0;
+}
+input, textarea {
+    resize: none;
+    outline: 0;
+    font-family: Arial;
+    word-wrap: break-word;
+}
+a {
+    color: #666;
+    text-decoration: none;
+}
+html,body{
+    background-color: lemonchiffon;
+}
+p {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+.wrap {
+    width: 100%;
+    padding-bottom: 50px;
+}
+.wrap .reg_wrap {
+    width: 980px;
+    margin: 0 auto;
+}
+.wrap .reg_wrap .head {
+    padding-top: 40px;
+    padding-bottom: 30px;
+    display: block;
+}
+.wrap .reg_wrap .head .reg_logo {
+    display: inline-block;
+    background: url("../img/register_logo.png") no-repeat;
+    width: 157px;
+    height: 56px;
+    margin-right: 25px;
+}
+.wrap .reg_wrap .head .welcome_txt {
+    display: inline-block;
+    background: url("../img/register_wel_m.png") no-repeat;
+    width: 336px;
+    height: 50px;
+}
+.wrap .reg_wrap .main {
+    background-color: #fff;
+    padding-top: 40px;
+    padding-right: 50px;
+    padding-left: 80px;
+}
+.wrap .reg_wrap .main:after {
+    clear: both;
+    content: ".";
+    display: block;
+    visibility: hidden;
+    height: 0;
+}
+.wrap .reg_wrap .main .reg_form .more_way_wrap:after {
+    clear: both;
+    content: ".";
+    display: block;
+    visibility: hidden;
+    height: 0;
+}
+.wrap .reg_wrap .main .ad_wrap {
+    float: left;
+}
+.wrap .reg_wrap .main .reg_form {
+    float: right;
+    width: 320px;
+    margin-right: 30px;
+}
+.wrap .reg_wrap .main .reg_form h3 {
+    font-size: 14px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+.wrap .reg_wrap .main .reg_form h3 a {
+    color: #f69;
+    text-decoration: underline;
+    float: right;
+    font-weight: normal;
+    padding-right: 3px;
+}
+/*.wrap .reg_wrap .main .reg_form .reg_list {*/
+    /*min-height: 48px;*/
+/*}*/
+.wrap .reg_wrap .main .reg_form .reg_list .reg_box {
+    position: relative;
+}
+.wrap .reg_wrap .main .reg_form .reg_list .reg_txt {
+    margin-top: -50px;
+    width: 280px;
+    height: 34px;
+    line-height: 34px;
+    border: 1px solid #ddd;
+    color: #999;
+    padding-left: 35px;
+}
+.wrap .reg_wrap .main .reg_form .reg_list p {
+    line-height: 30px;
+}
+.wrap .reg_wrap .main .reg_form .tel_icon {
+    background: url("../img/login_icon-4.png") no-repeat;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    background-position: -75px 0;
+    top: 6px;
+    left: 5px;
+}
+.wrap .reg_wrap .main .reg_form .user_icon {
+    background: url("../img/login_icon-4.png") no-repeat;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    background-position: 0 0;
+    top: 6px;
+    left: 5px;
+}
+.wrap .reg_wrap .main .reg_form .pwd_icon {
+    background: url("../img/login_icon-4.png") no-repeat;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    background-position: -25px 0;
+    top: 5px;
+    left: 5px;
+}
+.wrap .reg_wrap .main .reg_form .reg_btn_wrap .reg_btn {
+    color: #fff;
+    display: block;
+    font-size: 16px;
+    text-align: center;
+    border: 0;
+    width: 320px;
+    height: 46px;
+    background-color: #f69;
+    line-height: 46px;
+    cursor: pointer;
+}
+.wrap .reg_wrap .main .reg_form .agree_reg {
+    padding-top: 12px;
+    padding-bottom: 20px;
+    color: #999;
+    border-bottom: 1px dotted #ccc;
+    font-size: 10px;
+}
+.wrap .reg_wrap .main .reg_form .agree_reg a {
+    color: #f69;
+}
+.wrap .reg_wrap .main .reg_form .fast_login h3 {
+    padding-top: 20px;
+    padding-bottom: 15px;
+    font-size: 14px;
+    font-weight: normal;
+}
+.wrap .reg_wrap .main .reg_form .fast_login .fast_way {
+    padding-bottom: 20px;
+}
+.wrap .reg_wrap .main .reg_form .fast_login .fast_way a.qq_way {
+    background-position: 0 -120px;
+}
+.wrap .reg_wrap .main .reg_form .fast_login .fast_way a {
+    float: left;
+    width: 100px;
+    height: 35px;
+    background: url("../img/login_fast_new.png") no-repeat;
+}
+.wrap .reg_wrap .main .reg_form .fast_login .fast_way a.sina_way {
+    background-position: 0 -160px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.wrap .reg_wrap .main .reg_form .fast_login .fast_way a.weixin_way {
+    background-position: 0 -200px;
+}
+.wrap .reg_wrap .main .reg_form .more_way_wrap {
+    padding-bottom: 25px;
+    line-height: 26px;
+}
+.wrap .reg_wrap .main .reg_form .more_way_wrap h4 {
+    float: left;
+    margin-right: 10px;
+    font-size: 12px;
+    font-weight: normal;
+    padding-bottom: 2px;
+    cursor: pointer;
+}
+.reg_btn_wrap{
+    margin-top: 10px;
+}
+.error{
+    display: block;
+    height: 6px;
+    line-height: 12px;
+    font-size: 12px;
+    color: #f69;
+    /*display: none;*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
