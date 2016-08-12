@@ -76,21 +76,21 @@ img {
 .slide1 img:nth-child(5) {
     width: 5rem;
     height: 0.8rem;
-    top: 9.5rem;
+    bottom: 1.25rem;
     left: .8rem;
 }
 
 .slide1 img:nth-child(6) {
     width: 0.4rem;
     height: 0.4rem;
-    top: 9.7rem;
+    bottom: 1.45rem;
     left: 1.2rem;
 }
 
 .slide1 img:nth-child(7) {
     width: 0.4rem;
     height: 0.4rem;
-    top: 9.7rem;
+    bottom: 1.45rem;
     right: 1.2rem;
 }
 
@@ -136,7 +136,7 @@ img {
     letter-spacing: 0.1em;
     background-color: initial;
     position: absolute;
-    top: 9rem;
+    bottom: 2.5rem;
     left: 1.3rem;
 }
 
@@ -147,7 +147,7 @@ img {
     letter-spacing: 0.1em;
     background-color: initial;
     position: absolute;
-    top: 9rem;
+    bottom: 2.5rem;
     right: 1.1rem;
 }
 
@@ -159,7 +159,7 @@ img {
     font-weight: bold;
     background-color: initial;
     position: absolute;
-    top: 9.7rem;
+    bottom: 1.5rem;
     left: 2.2rem;
 
 }
