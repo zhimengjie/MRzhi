@@ -1,0 +1,701 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    background: #EEE;
+    overflow: hidden;
+}
+
+html {
+    font-size: 100px;
+}
+
+.main {
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+
+
+}
+
+.swiper-container, .swiper-wrapper, .swiper-slide {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    position: relative;
+}
+
+.swiper-slide img {
+    position: absolute;
+
+}
+
+img {
+    display: block;
+}
+
+/*--slide1--*/
+.slide1 {
+    background: url("../img/r111.png") no-repeat;
+    background-size: 100% 100%;
+}
+
+.slide1 img:nth-child(1) {
+    width: 2.5rem;
+    height: 2.5rem;
+    top: 2.4rem;
+    left: 1.95rem;
+}
+
+.slide1 img:nth-child(2) {
+    width: 2.3rem;
+    height: 2.3rem;
+    top: 2.5rem;
+    left: 2.03rem;
+    border-radius: 50%;
+}
+
+.slide1 img:nth-child(3) {
+    width: 2.7rem;
+    height: 2.7rem;
+    top: 2.3rem;
+    left: 1.83rem;
+    border-radius: 50%;
+}
+
+.slide1 img:nth-child(4) {
+    width: 4rem;
+    height: 0.1rem;
+    top: 7.2rem;
+    left: 1.4rem;
+
+}
+
+.slide1 img:nth-child(5) {
+    width: 5rem;
+    height: 0.8rem;
+    top: 9.5rem;
+    left: .8rem;
+}
+
+.slide1 img:nth-child(6) {
+    width: 0.4rem;
+    height: 0.4rem;
+    top: 9.7rem;
+    left: 1.2rem;
+}
+
+.slide1 img:nth-child(7) {
+    width: 0.4rem;
+    height: 0.4rem;
+    top: 9.7rem;
+    right: 1.2rem;
+}
+
+.slide1 .span1 {
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    line-height: inherit;
+    letter-spacing: 0.25em;
+    background-color: initial;
+    position: absolute;
+    top: 6rem;
+    left: 2rem;
+
+}
+
+.slide1 .span2 {
+    color: rgb(255, 255, 255);
+    line-height: inherit;
+    font-size: 32px;
+    font-weight: bold;
+    letter-spacing: 0.25em;
+    background-color: initial;
+    position: absolute;
+    top: 6.3rem;
+    left: 2rem;
+}
+
+.slide1 .span3 {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    line-height: inherit;
+    letter-spacing: 0.1em;
+    background-color: initial;
+    position: absolute;
+    top: 7.5rem;
+    left: 2.3rem;
+}
+
+.slide1 .span4 {
+    color: #ffffff;
+    font-size: 16px;
+    line-height: inherit;
+    letter-spacing: 0.1em;
+    background-color: initial;
+    position: absolute;
+    top: 9rem;
+    left: 1.3rem;
+}
+
+.slide1 .span5 {
+    color: #ffffff;
+    font-size: 16px;
+    line-height: inherit;
+    letter-spacing: 0.1em;
+    background-color: initial;
+    position: absolute;
+    top: 9rem;
+    right: 1.1rem;
+}
+
+.slide1 .span6 {
+    font-size: 16px;
+    line-height: inherit;
+    letter-spacing: 0.5em;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    background-color: initial;
+    position: absolute;
+    top: 9.7rem;
+    left: 2.2rem;
+
+}
+
+/*--slide2--*/
+.slide2 {
+    background: url("../img/re2.png") no-repeat;
+    background-size: 100% 100%;
+}
+
+.slide2 .div1 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+    width: 2rem;
+    height: 0.7rem;
+    line-height: 0.7rem;
+    border: 1px dotted #ffffff;
+    text-align: center;
+    position: absolute;
+    top: 2.5rem;
+    left: 2.3rem;
+    border-radius: 10px;
+}
+
+.slide2 .div2 span {
+    display: block;
+}
+
+.slide2 .div2 .span1 {
+    width: 2.7rem;
+    height: 0.8rem;
+    line-height: 0.8rem;
+    background: cyan;
+    opacity: 0.1;
+    position: absolute;
+    top: 4.5rem;
+    left: 2rem;
+
+}
+
+.slide2 .div2 .span2 {
+    font-size: 20px;
+    width: 2.2rem;
+    height: 0.6rem;
+    line-height: 0.6rem;
+    background: cyan;
+    position: absolute;
+    top: 4.63rem;
+    left: 2.25rem;
+    text-align: center;
+}
+
+.slide2 .div3 {
+    color: #000;
+    font-size: 18px;
+    position: absolute;
+    top: 5.35rem;
+    left: 1.8rem;
+}
+
+.slide2 .div4 {
+    color: #000;
+    font-size: 18px;
+    position: absolute;
+    top: 6.35rem;
+    left: 1.8rem;
+
+}
+
+.slide2 .div5 {
+    color: #000;
+    font-size: 18px;
+    position: absolute;
+    top: 7.35rem;
+    left: 1.8rem;
+}
+
+.slide2 .div6 {
+    color: #000;
+    font-size: 18px;
+    position: absolute;
+    top: 8.35rem;
+    left: 1.8rem;
+}
+
+.slide2 .div7 {
+    color: #000;
+    font-size: 18px;
+    position: absolute;
+    top: 9.35rem;
+    left: 1.8rem;
+}
+
+.slide2 .div8 {
+    color: #fff;
+    font-size: 20px;
+    position: absolute;
+    top: 3.4rem;
+    left: 2.7rem;
+}
+
+.slide2 img:nth-child(1) {
+    width: 5.5rem;
+    height: 6rem;
+    top: 4rem;
+    left: 0.5rem;
+}
+
+.slide2 img:nth-child(2) {
+    width: 1rem;
+    height: 0.5rem;
+    top: 4.7rem;
+    left: 1.1rem;
+}
+
+.slide2 img:nth-child(3) {
+    width: 1rem;
+    height: 0.5rem;
+    top: 4.7rem;
+    right: 0.9rem;
+}
+
+.slide2 img:nth-child(4) {
+    width: 4.5rem;
+    height: 0.5rem;
+    top: 5.3rem;
+    right: 0.9rem;
+}
+
+.slide2 img:nth-child(5) {
+    width: 4.5rem;
+    height: 0.5rem;
+    top: 6.3rem;
+    right: 0.9rem;
+}
+
+.slide2 img:nth-child(6) {
+    width: 4.5rem;
+    height: 0.5rem;
+    top: 7.3rem;
+    right: 0.9rem;
+}
+
+.slide2 img:nth-child(7) {
+    width: 4.5rem;
+    height: 0.5rem;
+    top: 8.3rem;
+    right: 0.9rem;
+}
+
+.slide2 img:nth-child(8) {
+    width: 4.5rem;
+    height: 0.5rem;
+    top: 9.3rem;
+    right: 0.9rem;
+}
+
+.slide3 {
+    background: url("../img/re3.png") no-repeat;
+    background-size: 100% 100%;
+
+}
+
+.slide3 .div1 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+    width: 2rem;
+    height: 0.7rem;
+    line-height: 0.7rem;
+    border: 1px dotted #ffffff;
+    text-align: center;
+    position: absolute;
+    top: 2.5rem;
+    left: 2.3rem;
+    border-radius: 10px;
+}
+
+.slide3 .div2 {
+    color: #EEEEEE;
+    font-size: 25px;
+    position: absolute;
+    top: 5.8rem;
+    left: 0.8rem;
+    font-weight: 700;
+}
+
+.slide3 .div3 {
+    color: #EEEEEE;
+    font-size: 30px;
+    position: absolute;
+    top: 6.9rem;
+    left: 0.9rem;
+    font-weight: 700;
+}
+
+.slide3 .div4 {
+    color: #EEEEEE;
+    font-size: 30px;
+    position: absolute;
+    top: 8.1rem;
+    left: .81rem;
+    font-weight: 700;
+}
+
+.slide3 .div5 {
+    color: #EEEEEE;
+    font-size: 25px;
+    position: absolute;
+    top: 9.35rem;
+    left: .7rem;
+    font-weight: 500;
+}
+
+.slide3 .div6 {
+    color: #fff;
+    font-size: 20px;
+    position: absolute;
+    top: 3.4rem;
+    left: 2.8rem;
+}
+.slide3 .div7 {
+      color: #EEEEEE;
+    font-size: 25px;
+    position: absolute;
+    top: 4.8rem;
+    left: 0.9rem;
+    font-weight: 700;
+}
+
+
+.slide3 img:nth-child(1) {
+     width: 3.6rem;
+     height: 0.4rem;
+     top: 4.85rem;
+     left:2rem;
+ }
+.slide3 img:nth-child(2) {
+    width: 3.6rem;
+    height: 0.4rem;
+    top: 5.85rem;
+    left:2rem;
+}
+.slide3 img:nth-child(3) {
+    width: 3.6rem;
+    height: 0.4rem;
+    top: 7rem;
+    left:2rem;
+}
+.slide3 img:nth-child(4) {
+    width: 3.6rem;
+    height: 0.4rem;
+    top: 8.2rem;
+    left:2rem;
+}
+.slide3 img:nth-child(5) {
+    width: 3.6rem;
+    height: 0.4rem;
+    top: 9.4rem;
+    left:2rem;
+}
+
+.slide3 img:nth-child(6) {
+    width: 2.16rem;
+    height: 0.4rem;
+    top: 4.85rem;
+    left:2rem;
+}
+.slide3 img:nth-child(7) {
+    width: 2.88rem;
+    height: 0.4rem;
+    top: 5.85rem;
+    left:2rem;
+}
+.slide3 img:nth-child(8) {
+    width: 2.88rem;
+    height: 0.4rem;
+    top: 7rem;
+    left:2rem;
+}
+.slide3 img:nth-child(9) {
+    width: 2.65rem;
+    height: 0.4rem;
+    top: 8.2rem;
+    left:2rem;
+}
+.slide3 img:nth-child(10) {
+    width: 2rem;
+    height: 0.4rem;
+    top: 9.4rem;
+    left:2rem;
+}
+
+.slide4{
+    background: url("../img/re4.png") no-repeat;
+    background-size: 100% 100%;
+}
+.slide4 .div1{
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+    width: 2rem;
+    height: 0.7rem;
+    line-height: 0.7rem;
+    border: 1px dotted #ffffff;
+    text-align: center;
+    position: absolute;
+    top: 2.5rem;
+    left: 2.3rem;
+    border-radius: 10px;
+}
+.slide4 .div2{
+    width: 5.5rem;
+    height: 1rem;
+    color: lightgoldenrodyellow;
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    top: 4rem;
+    left: 0.6rem;
+    text-indent:2em
+}
+.slide4 .div3{
+    width: 5.5rem;
+    height: 1rem;
+    color: skyblue;
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    top: 5.5rem;
+    left: 0.6rem;
+    text-indent:2em
+}
+.slide4 .div4{
+    width: 5.5rem;
+    height: 1rem;
+    color: mistyrose;
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    top: 7rem;
+    left: 0.6rem;
+    text-indent:2em
+}
+.slide4 .div5{
+    width: 5.5rem;
+    height: 1rem;
+    color:lightseagreen;
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    top: 8.6rem;
+    left: 0.6rem;
+    text-indent:2em
+}
+
+.slide5{
+    background: url("../img/re05.jpg") no-repeat;
+    background-size: 100% 100%;
+
+}
+.slide5 img:nth-child(1){
+    width: 2rem;
+    height: 2rem;
+    top: 3.5rem;
+    left: 2.3rem;
+}
+.slide5 img:nth-child(2){
+    width: 0.6rem;
+    height: 0.6rem;
+    top: 7rem;
+    left: 0.6rem;
+    border-radius: 50%;
+}
+.slide5 img:nth-child(3){
+    width:0.6rem;
+    height: 0.6rem;
+    top: 8rem;
+    left:0.6rem;
+    border-radius: 50%;
+}
+.slide5 img:nth-child(4){
+    width:0.6rem;
+    height: 0.6rem;
+    top: 9rem;
+    left:0.6rem;
+    border-radius: 50%;
+}
+.slide5 img:nth-child(5){
+    width:0.6rem;
+    height: 0.6rem;
+    top: 10rem;
+    left:0.6rem;
+    border-radius: 50%;
+}
+.slide5 .div1{
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+    width: 2rem;
+    height: 0.7rem;
+    line-height: 0.7rem;
+    border: 1px dotted #ffffff;
+    text-align: center;
+    position: absolute;
+    top: 2.5rem;
+    left: 2.3rem;
+    border-radius: 10px;
+}
+.slide5 .div2{
+    color: #fff;
+    font-size: 20px;
+    position: absolute;
+    top: 7.1rem;
+    left: 1.8rem;
+}
+.slide5 .div3{
+    color: #fff;
+    font-size: 20px;
+    position: absolute;
+    top: 8.1rem;
+    left: 1.8rem;
+}
+.slide5 .div4{
+    color: #fff;
+    font-size: 20px;
+    position: absolute;
+    top: 9.1rem;
+    left: 1.8rem;
+}
+
+.slide5 .div5{
+    color: #fff;
+    font-size: 20px;
+    position: absolute;
+    top: 10.1rem;
+    left: 1.8rem;
+}
+
+.slide6{
+    background: url("../img/re01.jpg")no-repeat;
+    background-size: 100% 100%;
+}
+.slide6 .div1{
+    color: blanchedalmond;
+    font-size: 30px;
+    position: absolute;
+    top: 1rem;
+    left: 2.4rem;
+}
+.slide6 .div2{
+    color: blanchedalmond;
+    font-size: 30px;
+    position: absolute;
+    top: 2.2rem;
+    left: 2.4rem;
+}
+
+.slide6 .div3{
+    color: darkorange;
+    font-size:50px;
+    position: absolute;
+    top: 6rem;
+    left: 1.8rem;
+}
+
+.music {
+    display: none;
+    position: absolute;
+    top: 1rem;
+    right: .2rem;
+    z-index: 1000;
+    width: .6rem;
+    height: .6rem;
+    background: url("../music/music.svg") no-repeat;
+    background-size: 100% 100%;
+}
+
+.music audio {
+    display: none;
+}
+
+.music.move {
+    -webkit-animation: musicMove .5s linear 0s infinite both;
+    animation: musicMove .5s linear 0s infinite both;
+}
+
+@-webkit-keyframes musicMove {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes musicMove {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and ( min-width: 212px){/*213px显示屏样式 LG Optimus One*/}
+@media screen and ( min-width: 319px){/*320px显示屏样式 苹果4/4S/5C/5S黑莓Z30 */}
+@media screen and ( min-width: 359px){/*360px显示屏样式 索尼Z1*/}
+@media screen and ( min-width: 383px){/*384px显示屏样式 黑莓Z10 谷歌 Nexus 6 LG Optimus G*/}
+@media screen and ( min-width: 399px){/*399px显示屏样式 三星galaxyNote*/}
+@media screen and ( min-width: 414px){/*414px显示屏样式 苹果6plus*/}
+@media screen and ( min-width: 423px){/*424px显示屏样式 LG 4X */}
+@media screen and ( min-width: 479px){/*480px显示屏样式 索尼MT27i Xperia sola*/}
+@media screen and ( min-width: 539px){/*640px显示屏样式 摩托罗拉Droid3/4/Razr Atrix 4g*/}
+@media screen and ( min-width: 639px){/*640px显示屏样式*/}
+@media screen and ( min-width: 640px){/*640px以上显示屏样式*/}
+
+
