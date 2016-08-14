@@ -29,6 +29,7 @@ html {
 
 .swiper-slide img {
     position: absolute;
+    opacity: 0;
 
 }
 
@@ -92,6 +93,10 @@ img {
     height: 0.4rem;
     top: 9.7rem;
     right: 1.2rem;
+}
+
+.slide1 span{
+    opacity: 0;
 }
 
 .slide1 .span1 {
@@ -162,6 +167,58 @@ img {
     top: 9.7rem;
     left: 2.2rem;
 
+}
+#page1 img:nth-child(1){
+    -webkit-animation:zoomIn 1s linear 0.1s both ;
+    animation: zoomIn 1s linear 0.1s both;
+}
+#page1 img:nth-child(2){
+    -webkit-animation:zoomIn 1s linear 0.1s both ;
+    animation: zoomIn 1s linear 0.1s both;
+}
+#page1 img:nth-child(3){
+    -webkit-animation:zoomIn 1s linear 0.1s both ;
+    animation: zoomIn 1s linear 0.1s both;
+}
+#page1 img:nth-child(4){
+    -webkit-animation:zoomIn 1s linear 0.1s both ;
+    animation: zoomIn 1s linear 0.1s both;
+}
+#page1 img:nth-child(5){
+    -webkit-animation:zoomIn 1s linear 0.1s both ;
+    animation: zoomIn 1s linear 0.1s both;
+}
+#page1 img:nth-child(6){
+    -webkit-animation:zoomIn 1s linear 0.1s both ;
+    animation: zoomIn 1s linear 0.1s both;
+}
+#page1 img:nth-child(7){
+    -webkit-animation:zoomIn 1s linear 0.1s both ;
+    animation: zoomIn 1s linear 0.1s both;
+}
+#page1 span:nth-child(8){
+    -webkit-animation:zoomIn 1s linear 0.1s both ;
+    animation: zoomIn 1s linear 0.1s both;
+}
+#page1 span:nth-child(9){
+    -webkit-animation:zoomIn 1s linear 0.1s both ;
+    animation: zoomIn 1s linear 0.1s both;
+}
+#page1 span:nth-child(10){
+    -webkit-animation:zoomIn 1s linear 0.1s both ;
+    animation: zoomIn 1s linear 0.1s both;
+}
+#page1 span:nth-child(11){
+    -webkit-animation:zoomIn 1s linear 0.1s both ;
+    animation: zoomIn 1s linear 0.1s both;
+}
+#page1 span:nth-child(12){
+    -webkit-animation:zoomIn 1s linear 0.1s both ;
+    animation: zoomIn 1s linear 0.1s both;
+}
+#page1 span:nth-child(13){
+    -webkit-animation:zoomIn 1s linear 0.1s both ;
+    animation: zoomIn 1s linear 0.1s both;
 }
 
 /*--slide2--*/
@@ -317,7 +374,77 @@ img {
     top: 9.3rem;
     right: 0.9rem;
 }
+.slide2 div{
+    opacity: 0;
+}
+#page2 img:nth-child(1){
+    -webkit-animation:zoomIn 1s linear 0.1s both ;
+    animation: zoomIn 1s linear 0.1s both;
+}
+#page2 img:nth-child(2){
+    -webkit-animation:zoomIn 1s linear 0.1s both ;
+    animation: zoomIn 1s linear 0.1s both;
+}
+#page2 img:nth-child(3){
+    -webkit-animation:zoomIn 1s linear 0.1s both ;
+    animation: zoomIn 1s linear 0.1s both;
+}
+#page2 img:nth-child(4){
+    -webkit-animation:zoomIn 1s linear 0.1s both ;
+    animation: zoomIn 1s linear 0.1s both;
+}
+#page2 img:nth-child(5){
+    -webkit-animation:zoomIn 1s linear 0.1s both ;
+    animation: zoomIn 1s linear 0.1s both;
+}
+#page2 img:nth-child(6){
+    -webkit-animation:zoomIn 1s linear 0.1s both ;
+    animation: zoomIn 1s linear 0.1s both;
+}
+#page2 img:nth-child(7){
+    -webkit-animation:zoomIn 1s linear 0.1s both ;
+    animation: zoomIn 1s linear 0.1s both;
+}
+#page2 img:nth-child(8){
+    -webkit-animation:zoomIn 1s linear 0.1s both ;
+    animation: zoomIn 1s linear 0.1s both;
+}
+#page2 div:nth-child(9){
+    -webkit-animation:zoomIn 1s linear 0.1s both ;
+    animation: zoomIn 1s linear 0.1s both;
+}
+#page2 div:nth-child(10){
+    -webkit-animation:zoomIn 1s linear 0.1s both ;
+    animation: zoomIn 1s linear 0.1s both;
+}
+#page2 div:nth-child(11){
+    -webkit-animation:zoomIn 1s linear 0.1s both ;
+    animation: zoomIn 1s linear 0.1s both;
+}
+#page2 div:nth-child(12){
+    -webkit-animation:zoomIn 1s linear 0.1s both ;
+    animation: zoomIn 1s linear 0.1s both;
+}
+#page2 div:nth-child(13){
+    -webkit-animation:zoomIn 1s linear 0.1s both ;
+    animation: zoomIn 1s linear 0.1s both;
+}
+#page2 div:nth-child(14){
+    -webkit-animation:zoomIn 1s linear 0.1s both ;
+    animation: zoomIn 1s linear 0.1s both;
+}
+#page2 div:nth-child(15){
+    -webkit-animation:zoomIn 1s linear 0.1s both ;
+    animation: zoomIn 1s linear 0.1s both;
+}
+#page2 div:nth-child(16){
+    -webkit-animation:zoomIn 1s linear 0.1s both ;
+    animation: zoomIn 1s linear 0.1s both;
+}
 
+
+
+/*slide3*/
 .slide3 {
     background: url("../img/re3.png") no-repeat;
     background-size: 100% 100%;
@@ -453,7 +580,80 @@ img {
     top: 9.4rem;
     left:2rem;
 }
+.slide3 div{
+    opacity: 0;
+}
+#page3 img:nth-child(1){
+    -webkit-animation:zoomIn 1s linear 0.1s both ;
+    animation: zoomIn 1s linear 0.1s both;
+}
+#page3 img:nth-child(2){
+    -webkit-animation:zoomIn 1s linear 0.1s both ;
+    animation: zoomIn 1s linear 0.1s both;
+}
+#page3 img:nth-child(3){
+    -webkit-animation:zoomIn 1s linear 0.1s both ;
+    animation: zoomIn 1s linear 0.1s both;
+}
+#page3 img:nth-child(4){
+    -webkit-animation:zoomIn 1s linear 0.1s both ;
+    animation: zoomIn 1s linear 0.1s both;
+}
+#page3 img:nth-child(5){
+    -webkit-animation:zoomIn 1s linear 0.1s both ;
+    animation: zoomIn 1s linear 0.1s both;
+}
+#page3 img:nth-child(6){
+    -webkit-animation:zoomIn 1s linear 0.1s both ;
+    animation: zoomIn 1s linear 0.1s both;
+}
+#page3 img:nth-child(7){
+    -webkit-animation:zoomIn 1s linear 0.1s both ;
+    animation: zoomIn 1s linear 0.1s both;
+}
+#page3 img:nth-child(8){
+    -webkit-animation:zoomIn 1s linear 0.1s both ;
+    animation: zoomIn 1s linear 0.1s both;
+}
+#page3 img:nth-child(9){
+    -webkit-animation:zoomIn 1s linear 0.1s both ;
+    animation: zoomIn 1s linear 0.1s both;
+}
+#page3 img:nth-child(10){
+    -webkit-animation:zoomIn 1s linear 0.1s both ;
+    animation: zoomIn 1s linear 0.1s both;
+}
+#page3 div:nth-child(11){
+    -webkit-animation:zoomIn 1s linear 0.1s both ;
+    animation: zoomIn 1s linear 0.1s both;
+}
+#page3 div:nth-child(12){
+    -webkit-animation:zoomIn 1s linear 0.1s both ;
+    animation: zoomIn 1s linear 0.1s both;
+}
+#page3 div:nth-child(13){
+    -webkit-animation:zoomIn 1s linear 0.1s both ;
+    animation: zoomIn 1s linear 0.1s both;
+}
+#page3 div:nth-child(14){
+    -webkit-animation:zoomIn 1s linear 0.1s both ;
+    animation: zoomIn 1s linear 0.1s both;
+}
+#page3 div:nth-child(15){
+    -webkit-animation:zoomIn 1s linear 0.1s both ;
+    animation: zoomIn 1s linear 0.1s both;
+}
+#page3 div:nth-child(16){
+    -webkit-animation:zoomIn 1s linear 0.1s both ;
+    animation: zoomIn 1s linear 0.1s both;
+}
+#page3 div:nth-child(17){
+    -webkit-animation:zoomIn 1s linear 0.1s both ;
+    animation: zoomIn 1s linear 0.1s both;
+}
 
+
+/*slide4*/
 .slide4{
     background: url("../img/re4.png") no-repeat;
     background-size: 100% 100%;
@@ -516,7 +716,34 @@ img {
     left: 0.6rem;
     text-indent:2em
 }
+.slide4 div{
+    opacity: 0;
+}
+#page4 div:nth-child(1){
+    -webkit-animation:zoomIn 1s linear 0.1s both ;
+    animation: zoomIn 1s linear 0.1s both;
+}
+#page4 div:nth-child(2){
+    -webkit-animation:zoomIn 1s linear 0.1s both ;
+    animation: zoomIn 1s linear 0.1s both;
+}
+#page4 div:nth-child(3){
+    -webkit-animation:zoomIn 1s linear 0.1s both ;
+    animation: zoomIn 1s linear 0.1s both;
+}
+#page4 div:nth-child(4){
+    -webkit-animation:zoomIn 1s linear 0.1s both ;
+    animation: zoomIn 1s linear 0.1s both;
+}
+#page4 div:nth-child(5){
+    -webkit-animation:zoomIn 1s linear 0.1s both ;
+    animation: zoomIn 1s linear 0.1s both;
+}
 
+
+
+
+/*slide5*/
 .slide5{
     background: url("../img/re05.jpg") no-repeat;
     background-size: 100% 100%;
@@ -599,7 +826,52 @@ img {
     top: 10.1rem;
     left: 1.8rem;
 }
+.slide5 div{
+    opacity: 0;
+}
+#page5  img:nth-child(1){
+    -webkit-animation:zoomIn 1s linear 0.1s both ;
+    animation: zoomIn 1s linear 0.1s both;
+}
+#page5  img:nth-child(2){
+    -webkit-animation:zoomIn 1s linear 0.1s both ;
+    animation: zoomIn 1s linear 0.1s both;
+}
+#page5  img:nth-child(3){
+    -webkit-animation:zoomIn 1s linear 0.1s both ;
+    animation: zoomIn 1s linear 0.1s both;
+}
+#page5  img:nth-child(4){
+    -webkit-animation:zoomIn 1s linear 0.1s both ;
+    animation: zoomIn 1s linear 0.1s both;
+}
+#page5  img:nth-child(5){
+    -webkit-animation:zoomIn 1s linear 0.1s both ;
+    animation: zoomIn 1s linear 0.1s both;
+}
+#page5  div:nth-child(6){
+    -webkit-animation:zoomIn 1s linear 0.1s both ;
+    animation: zoomIn 1s linear 0.1s both;
+}
+#page5  div:nth-child(7){
+    -webkit-animation:zoomIn 1s linear 0.1s both ;
+    animation: zoomIn 1s linear 0.1s both;
+}
+#page5  div:nth-child(8){
+    -webkit-animation:zoomIn 1s linear 0.1s both ;
+    animation: zoomIn 1s linear 0.1s both;
+}
+#page5  div:nth-child(9){
+    -webkit-animation:zoomIn 1s linear 0.1s both ;
+    animation: zoomIn 1s linear 0.1s both;
+}
+#page5  div:nth-child(10){
+    -webkit-animation:zoomIn 1s linear 0.1s both ;
+    animation: zoomIn 1s linear 0.1s both;
+}
 
+
+/*slide6*/
 .slide6{
     background: url("../img/re01.jpg")no-repeat;
     background-size: 100% 100%;
@@ -626,6 +898,24 @@ img {
     top: 6rem;
     left: 1.8rem;
 }
+.slide6 div{
+    opacity: 0;
+}
+#page6 div:nth-child(1){
+    -webkit-animation:zoomIn 1s linear 0.1s both ;
+    animation: zoomIn 1s linear 0.1s both;
+}
+#page6 div:nth-child(2){
+    -webkit-animation:zoomIn 1s linear 0.1s both ;
+    animation: zoomIn 1s linear 0.1s both;
+}
+
+#page6 div:nth-child(3){
+    -webkit-animation:zoomIn 1s linear 0.1s both ;
+    animation: zoomIn 1s linear 0.1s both;
+}
+
+
 
 .music {
     display: none;
@@ -685,17 +975,26 @@ img {
 
 
 
+@-webkit-keyframes zoomInRotate {
+    from {
+        opacity: 0;
+        -webkit-transform: scale3d(.3, .3, .3);
+        transform: scale3d(.3, .3, .3);
+    }
 
-@media screen and ( min-width: 212px){/*213px显示屏样式 LG Optimus One*/}
-@media screen and ( min-width: 319px){/*320px显示屏样式 苹果4/4S/5C/5S黑莓Z30 */}
-@media screen and ( min-width: 359px){/*360px显示屏样式 索尼Z1*/}
-@media screen and ( min-width: 383px){/*384px显示屏样式 黑莓Z10 谷歌 Nexus 6 LG Optimus G*/}
-@media screen and ( min-width: 399px){/*399px显示屏样式 三星galaxyNote*/}
-@media screen and ( min-width: 414px){/*414px显示屏样式 苹果6plus*/}
-@media screen and ( min-width: 423px){/*424px显示屏样式 LG 4X */}
-@media screen and ( min-width: 479px){/*480px显示屏样式 索尼MT27i Xperia sola*/}
-@media screen and ( min-width: 539px){/*640px显示屏样式 摩托罗拉Droid3/4/Razr Atrix 4g*/}
-@media screen and ( min-width: 639px){/*640px显示屏样式*/}
-@media screen and ( min-width: 640px){/*640px以上显示屏样式*/}
+    to{
+        opacity: 1;
+    }
+}
 
+@keyframes zoomInRotate {
+    from {
+        opacity: 0;
+        -webkit-transform: scale3d(.3, .3, .3);
+        transform: scale3d(.3, .3, .3);
+    }
 
+    to{
+        opacity: 1;
+    }
+}
