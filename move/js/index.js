@@ -1,4 +1,3 @@
-//->REM
 ~function (desW) {
     var winW = document.documentElement.clientWidth,
         oMain = document.getElementById("main"),
@@ -8,13 +7,12 @@
         return;
     }
     document.documentElement.style.fontSize = n * 100 + "px";
-}(650);
+}(640);
 
-//->Swiper
 var sw = new Swiper(".swiper-container", {
     loop: true,
     direction: "vertical",
-    /*--当切换结束的时候我需要给当前展示的这个区域增加对应的ID(page1或者page2),从而实现里面子元素的运动--*/
+
     onSlideChangeEnd: function (swiper) {
         //->获取总共的SLIDE
         var slideAry = swiper.slides,
@@ -43,7 +41,7 @@ var sw = new Swiper(".swiper-container", {
     }
 });
 
-//->music
+/*music*/
 ~function () {
     var music = document.getElementById("music"),
         musicAudio = document.getElementById("musicAudio");
