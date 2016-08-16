@@ -237,7 +237,7 @@ img {
     border: 1px dotted #ffffff;
     text-align: center;
     position: absolute;
-    top: 2.1rem;
+    top: 1.9rem;
     left: 2.3rem;
     border-radius: 10px;
 }
@@ -253,7 +253,7 @@ img {
     background: cyan;
     opacity: 0.1;
     position: absolute;
-    top: 4rem;
+    top: 3.5rem;
     left: 2rem;
 
 }
@@ -265,7 +265,7 @@ img {
     line-height: 0.6rem;
     background: cyan;
     position: absolute;
-    top: 4.13rem;
+    top: 3.6rem;
     left: 2.25rem;
     text-align: center;
 }
@@ -274,7 +274,7 @@ img {
     color: #000;
     font-size: 18px;
     position: absolute;
-    top: 4.85rem;
+    top: 4.45rem;
     left: 1.8rem;
 }
 
@@ -282,7 +282,7 @@ img {
     color: #000;
     font-size: 18px;
     position: absolute;
-    top: 5.85rem;
+    top: 5.45rem;
     left: 1.8rem;
 
 }
@@ -291,7 +291,7 @@ img {
     color: #000;
     font-size: 18px;
     position: absolute;
-    top: 6.85rem;
+    top: 6.45rem;
     left: 1.8rem;
 }
 
@@ -299,7 +299,7 @@ img {
     color: #000;
     font-size: 18px;
     position: absolute;
-    top: 7.85rem;
+    top: 7.45rem;
     left: 1.8rem;
 }
 
@@ -307,7 +307,7 @@ img {
     color: #000;
     font-size: 18px;
     position: absolute;
-    top: 8.85rem;
+    top: 8.45rem;
     left: 1.8rem;
 }
 
@@ -315,63 +315,63 @@ img {
     color: #fff;
     font-size: 20px;
     position: absolute;
-    top: 2.9rem;
+    top: 2.7rem;
     left: 2.7rem;
 }
 
 .slide2 img:nth-child(1) {
     width: 5.5rem;
     height: 6rem;
-    top: 3.5rem;
+    top: 3.3rem;
     left: 0.5rem;
 }
 
 .slide2 img:nth-child(2) {
     width: 1rem;
     height: 0.5rem;
-    top: 4.2rem;
+    top: 3.7rem;
     left: 1.1rem;
 }
 
 .slide2 img:nth-child(3) {
     width: 1rem;
     height: 0.5rem;
-    top: 4.2rem;
+    top: 3.7rem;
     right: 0.9rem;
 }
 
 .slide2 img:nth-child(4) {
     width: 4.5rem;
     height: 0.5rem;
-    top: 4.8rem;
+    top: 4.4rem;
     right: 0.9rem;
 }
 
 .slide2 img:nth-child(5) {
     width: 4.5rem;
     height: 0.5rem;
-    top: 5.8rem;
+    top: 5.4rem;
     right: 0.9rem;
 }
 
 .slide2 img:nth-child(6) {
     width: 4.5rem;
     height: 0.5rem;
-    top: 6.8rem;
+    top: 6.4rem;
     right: 0.9rem;
 }
 
 .slide2 img:nth-child(7) {
     width: 4.5rem;
     height: 0.5rem;
-    top: 7.8rem;
+    top: 7.4rem;
     right: 0.9rem;
 }
 
 .slide2 img:nth-child(8) {
     width: 4.5rem;
     height: 0.5rem;
-    top: 8.8rem;
+    top: 8.4rem;
     right: 0.9rem;
 }
 .slide2 div{
@@ -668,7 +668,7 @@ img {
     border: 1px dotted #ffffff;
     text-align: center;
     position: absolute;
-    top: 2.2rem;
+    top: 1.9rem;
     left: 2.3rem;
     border-radius: 10px;
 }
@@ -679,7 +679,7 @@ img {
     font-size: 20px;
     font-weight: bold;
     position: absolute;
-    top: 3.3rem;
+    top: 3rem;
     left: 0.6rem;
     text-indent:2em
 }
@@ -690,7 +690,7 @@ img {
     font-size: 20px;
     font-weight: bold;
     position: absolute;
-    top: 4.8rem;
+    top: 4.5rem;
     left: 0.6rem;
     text-indent:2em
 }
@@ -701,7 +701,7 @@ img {
     font-size: 20px;
     font-weight: bold;
     position: absolute;
-    top: 6.3rem;
+    top: 6rem;
     left: 0.6rem;
     text-indent:2em
 }
@@ -712,7 +712,7 @@ img {
     font-size: 20px;
     font-weight: bold;
     position: absolute;
-    top: 7.9rem;
+    top: 7.6rem;
     left: 0.6rem;
     text-indent:2em
 }
@@ -758,28 +758,28 @@ img {
 .slide5 img:nth-child(2){
     width: 0.6rem;
     height: 0.6rem;
-    top: 5.8rem;
+    top: 5.5rem;
     left: 0.6rem;
     border-radius: 50%;
 }
 .slide5 img:nth-child(3){
     width:0.6rem;
     height: 0.6rem;
-    top: 6.8rem;
+    top: 6.5rem;
     left:0.6rem;
     border-radius: 50%;
 }
 .slide5 img:nth-child(4){
     width:0.6rem;
     height: 0.6rem;
-    top: 7.8rem;
+    top: 7.5rem;
     left:0.6rem;
     border-radius: 50%;
 }
 .slide5 img:nth-child(5){
     width:0.6rem;
     height: 0.6rem;
-    top: 8.8rem;
+    top: 8.5rem;
     left:0.6rem;
     border-radius: 50%;
 }
@@ -793,7 +793,7 @@ img {
     border: 1px dotted #ffffff;
     text-align: center;
     position: absolute;
-    top: 2.1rem;
+    top: 1.8rem;
     left: 2.3rem;
     border-radius: 10px;
 }
@@ -801,21 +801,21 @@ img {
     color: #fff;
     font-size: 20px;
     position: absolute;
-    top: 5.8rem;
+    top: 5.5rem;
     left: 1.8rem;
 }
 .slide5 .div3{
     color: #fff;
     font-size: 20px;
     position: absolute;
-    top: 6.8rem;
+    top: 6.5rem;
     left: 1.8rem;
 }
 .slide5 .div4{
     color: #fff;
     font-size: 20px;
     position: absolute;
-    top: 7.8rem;
+    top: 7.5rem;
     left: 1.8rem;
 }
 
@@ -823,7 +823,7 @@ img {
     color: #fff;
     font-size: 20px;
     position: absolute;
-    top: 8.8rem;
+    top: 8.5rem;
     left: 1.8rem;
 }
 .slide5 div{
